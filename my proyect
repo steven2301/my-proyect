@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hojas de Vida - Campus Virtual</title>
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #003366;
+            color: #ffffff;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        nav ul li {
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        .profile {
+            background-color: #ffffff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+        }
+
+        h2 {
+            color: #003366;
+            margin-bottom: 20px;
+        }
+
+        .profile-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .profile-card {
+            background-color: #f9f9f9;
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+            width: calc(33.333% - 20px);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .profile-card img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+        }
+
+        .profile-card a {
+            margin-top: 10px;
+            color: #003366;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .profile-card a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            background-color: #003366;
+            color: #ffffff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+
+        footer a {
+            color: #ffffff;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <!-- Encabezado -->
+    <header>
+        <div class="logo">
+            <h1>Campus Virtual</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Mi Hoja de Vida</a></li>
+                <li><a href="#">Otras Hojas de Vida</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sección Principal -->
+    <main>
+        <section class="other-profiles">
+            <h2>Hojas de Vida</h2>
+            <div class="profile-list">
+                <!-- Mi Hoja de Vida como un ícono -->
+                <div class="profile-card">
+                    <img src="D:\Pc_Camilo\Downloads\WhatsApp Image 2024-08-09 at 7.47.40 AM.jpeg " alt="Foto de perfil">
+                    <h3>Steeven zambrano Laguna</h3>
+                    <p>Ingeniería de Sistemas</p>
+                    <a href="C:\Users\LENOVO\hoja de vida.html">Ver Mi Hoja de Vida</a>
+                </div>
+                <!-- Repite este bloque para cada hoja de vida -->
+                <div class="profile-card">
+                    <img src="perfil-otro.jpg" alt="Foto de perfil">
+                    <h3>Nombre de Otro Usuario</h3>
+                    <p>Breve descripción o título profesional.</p>
+                    <a href="#">Ver Hoja de Vida</a>
+                </div>
+                <!-- Fin del bloque -->
+            </div>
+        </section>
+    </main>
+
+    <!-- Pie de Página -->
+    <footer>
+        <p>© 2024 Campus Virtual - Hojas de Vida</p>
+        <p><a href="szl200123@gmail.com">szl200123@gmail.com</a></p>
+    </footer>
+</body>
+</html>
